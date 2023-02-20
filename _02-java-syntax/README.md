@@ -25,6 +25,9 @@ public class Main {                                 // Class named 'Main'
 ```
 
 ---
+## Data Types
+
+---
 ## Naming Conventions
 Naming conventions can help programmers identify what kind of variable/method they are looking at.
 There are various ways to name things in programming, thus having a naming convention will help the code be more readable.
@@ -78,10 +81,10 @@ Naming conventions can help other programmers to identify what they are looking 
 String firstName1 = "John";
 String firstName2 = "Mark";
 
-// Stop using single letters are variable, wtf even is y?????
+// Stop using single letters as variable, wtf even is y?????
 int y = 5;
 
-// Do not use acronyms that everyone are not familiar with
+// Do not use acronyms that everyone is not familiar with
 // how would I know that SOL is speed of light?
 final int SOL = 299792458 ;
 
@@ -159,13 +162,10 @@ double firstSemesterAverageGrade = 1.37
 int delay = 100;                // 100 what? seconds, ms?
 int delayInMilliseconds = 100;  // better
 
-// use verbs in naming methods (handle, get, put, set, clear, etc.)
-
+// use verbs in naming methods (handle, get, put, move, clear, etc.)
+public static void handleUsernameValidation(){}
+public static void clearHashTableIndex(){}
+public static void getUserObject(){}
+public static void createNewUser(){}
+public static void appendToLinkedListNode(){}
 ```
-
-
----
-## Data Types
-
----
-## Keywords
