@@ -1,6 +1,8 @@
 public class Main {
     public static void main(String[] args) {
         final double PI = 3.14;
-        System.out.println("Hello world!");
+        short distanceInMiles = 634;
+        int elapsedTimeInMilliseconds = 1_547_146_841;
+        System.out.println(elapsedTimeInMilliseconds);
     }
 }
