@@ -1,12 +1,27 @@
-
-
 public class Loop {
     public static void main(String[] args) {
-        int x = 1;
+        int index = 0;
+        // while
+        while (index <= 5){
+            index++;
+            System.out.println(index);
+        }
+        // do while
         do {
-            System.out.println(x);
-            x++;
-        } while (x < 10);
+            index++;
+            System.out.println(index);
+        } while (index <= 10);
 
+        // for
+        for (int i = 0; i < 5; i++){
+            System.out.println(i);
+        }
+
+        // foreach
+        String[] animals = {"Dog", "Cat", "Bird", "Fish", "Chicken"};
+        // (singleElement : Array)
+        for (String animal : animals) {
+            System.out.println(animal);
+        }
     }
 }
