@@ -9,11 +9,13 @@ public class Loop {
         // do while
         do {
             index++;
+            if(index == 4) continue;
             System.out.println(index);
         } while (index <= 10);
 
         // for
         for (int i = 0; i < 5; i++){
+            if (i == 3) break;
             System.out.println(i);
         }
 
