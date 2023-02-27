@@ -2,9 +2,10 @@ public class Casting {
     public static void main(String[] args) {
         // casting (primitive data types)
         int integerNumber = 18;
-        double decimalNumber = integerNumber;
+        double decimalNumber = (double) integerNumber;
 
         System.out.println(integerNumber);
+        System.out.println((double) integerNumber);
         System.out.println(decimalNumber);
 
         // parsing
