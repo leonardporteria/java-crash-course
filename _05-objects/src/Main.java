@@ -1,12 +1,15 @@
 public class Main {
     public static void main(String[] args) {
-        Mouse myLogifakeMouse = new Mouse("Logifake", 800, 6, false, true);
+        Burger classicBurger = new Burger(true, true, true, true, true);
 
-        System.out.println(myLogifakeMouse.brand);
-        System.out.println(myLogifakeMouse.programmable);
+        Burger cheeseBurger = new Burger(true, true, true, true);
 
-        Mouse myA4TechMouse = new Mouse("A4 Tech", 1200, 4, true, false);
-        System.out.println(myA4TechMouse.brand);
-        System.out.println(myA4TechMouse.programmable);
+        Burger plainBurger = new Burger(true, true, true);
+
+        Burger sadBurger = new Burger(true, true);
+
+        Burger buns = new Burger(true);
+
+        Burger air = new Burger();
     }
 }

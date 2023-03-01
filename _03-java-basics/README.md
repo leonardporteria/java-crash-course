@@ -198,6 +198,11 @@ public class String {
         boolean hasThisString = myString.contains("Hell");
         System.out.println(hasThisString);
 
+        // equals(sequence of chars (String))
+        // (return boolean)
+        boolean isEqualsTo = myString.contains("Hello World!");
+        System.out.println(isEqualsTo);
+
         // compareTo (2nd string)
         // (return int)
         int isNotTheSame = helloString1.compareTo(helloString2);
