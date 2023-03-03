@@ -18,19 +18,19 @@
 - [x] Math
 - [x] Method
 - [x] Method Overloading
-- [ ] Recursion
-- [ ] Scope
-- [ ] Wrapper Classes
-- [ ] Attribute
-- [ ] Object
-- [ ] Class
-- [ ] Array of Object
-- [ ] Constructor
-- [ ] Constructor Overloading
-- [ ] Encapsulation
-- [ ] Inheritance
-- [ ] Polymorphism
-- [ ] Exceptions
+- [x] Recursion
+- [x] Scope
+- [x] Wrapper Classes
+- [x] Attribute
+- [x] Object
+- [x] Class
+- [x] Array of Object
+- [x] Constructor
+- [x] Constructor Overloading
+- [x] Encapsulation
+- [x] Inheritance
+- [x] Polymorphism
+- [x] Exceptions
 
 
 ## Exercises
@@ -53,11 +53,44 @@ Fizz
 ### Program 2:
 This program will prompt the user to input an integer number which will determine the corresponding events in month.
 
+### Program 4:
+Sort an n size array of integer given by the user. Allow the user to sort the integer ascending or in descending order.
 
-### Program 3:
-Create 3 different classes with different properties and methods. Use the Main class to display its properties, and perform its methods. Must use constructors/overloaded constructors.
+> Sample run:
+``` bash
+Enter the size of array: 5
+Enter the value of element 1: 8
+Enter the value of element 2: 6
+Enter the value of element 3: 3 
+Enter the value of element 4: 1 
+Enter the value of element 5: 9
+Sort ascending[1] or descending[2]?: 2
+
+Sorted array in descending order: 9 8 6 3 1
+```
+
+
+> Sample run:
+``` bash
+Enter the size of array: 5
+Enter the value of element 1: 8
+Enter the value of element 2: 6
+Enter the value of element 3: 3 
+Enter the value of element 4: 1 
+Enter the value of element 5: 9
+Sort ascending[1] or descending[2]?: 3
+Invalid input, try again.
+Sort ascending[1] or descending[2]?: 1
+
+Sorted array in ascending order: 1 3 6 8 9
+```
+
+
 
 ### Program 4:
+Create 3 different classes with different properties and methods. Use the Main class to display its properties, and perform its methods. Must use constructors/overloaded constructors.
+
+### Program 5:
 Assuming you are making a program that should create different object per different Professor.
 
 - Make a class `Professor` that should hold the common attributes of all the professor in the school.
