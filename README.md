@@ -53,7 +53,7 @@ Fizz
 ### Program 2:
 This program will prompt the user to input an integer number which will determine the corresponding events in month.
 
-### Program 4:
+### Program 3:
 Sort an n size array of integer given by the user. Allow the user to sort the integer ascending or in descending order.
 
 > Sample run:
